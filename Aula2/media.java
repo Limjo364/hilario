@@ -1,3 +1,4 @@
+package Aula2;
 public class media {
     public static void main(String[] args){
         int n1, n2, m;
