@@ -25,4 +25,5 @@ public class Matriz {
                 System.out.println(A[e][q]);
                 System.out.println(B[e][q]);
                 System.out.println(C[e][q]);}}
+        entrada.close();
 }}

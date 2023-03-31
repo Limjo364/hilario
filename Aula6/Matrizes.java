@@ -18,4 +18,5 @@ public class Matrizes {
                 if ((A[k][l]%2) == r){
                     System.out.println(A[k][l]);
                 }}}
+        entrada.close();
 }}

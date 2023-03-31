@@ -15,4 +15,5 @@ public class Vetores {
         for (int k = 0; k<10; k++){
             System.out.println(A[k]);
             System.out.println(B[k]);}
+        entrada.close();
 }}
