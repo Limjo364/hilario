@@ -21,7 +21,7 @@ public class av01 {
                     B[i][j] = A[i][j];}}}
         for (int i = 0; i<5 ; i++){
             for (int j = 0; j<5 ; j++){
-                System.out.println(A[i][j]);
-                System.out.println(B[i][j]);}}
+                System.out.println("Lista A -> " +A[i][j]);
+                System.out.println("Lista B -> " +B[i][j]);}}
         entrada.close();
 }}
