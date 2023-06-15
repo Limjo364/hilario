@@ -5,14 +5,12 @@ public class Data {
     private int mes;
     private int ano;
 
-    public Data(){
-    }
+    public Data(){}
     public void setDia(int dia){
         if (dia <= 31 && dia >= 1){
             this.dia = dia;}
             else{
-                System.out.println("Dia invalido");
-            }
+                System.out.println("Dia invalido");}
     }
     public int getDia(){
         return this.dia;
@@ -21,8 +19,7 @@ public class Data {
         if (mes <=12 && mes >= 1){
             this.mes = mes;}
             else{
-                System.out.println("Mes invalido");
-            }
+                System.out.println("Mes invalido");}
     }
     public int getMes(){
         return this.mes;
